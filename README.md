@@ -31,3 +31,31 @@ A versão atualiza inclui quebra automática de texto, fonte em negrito para o n
        ├── Montserrat-VariableFont_wght.ttf
        └── static/
            └── Montserrat-Bold.ttf
+
+3. No terminal, instale dependências:
+
+```bash
+pip install reportlab PyPDF2
+```
+
+
+4. Execute o script:
+
+```bash
+python3 n_gerador.py
+```
+
+Ele vai solicitar:
+
+Arquivo .txt com nomes
+
+Nome do workshop
+
+Data do evento
+
+Data da assinatura
+
+Carga horária
+
+
+Após a execução, os certificados serão gerados no mesmo diretório do script (ou pasta de saída configurada) com nomes como certificado_Nome_Do_Participante.pdf.
